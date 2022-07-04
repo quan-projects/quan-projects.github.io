@@ -16,4 +16,6 @@
 !svelte.config.js
 !tailwind.config.cjs
 
+!README.md
+
 **/build
