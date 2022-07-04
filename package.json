@@ -1,0 +1,35 @@
+{
+  "name": "quan-project",
+  "description": "quan-project.com",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "svelte-kit dev --host",
+    "build": "npm run clean && svelte-kit build",
+    "clean": "trash build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview --host",
+    "prepare": "svelte-kit sync",
+    "check": "svelte-check --tsconfig ./jsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./jsconfig.json --watch",
+    "test": "playwright test",
+    "deploy": "node ./gh-pages.js",
+    "start": "sirv -s 200.html build --host"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.23.1",
+    "@sveltejs/adapter-static": "^1.0.0-next.34",
+    "@sveltejs/kit": "next",
+    "autoprefixer": "^10.4.7",
+    "node-gyp": "^9.0.0",
+    "postcss": "^8.4.14",
+    "sirv-cli": "^2.0.2",
+    "svelte": "^3.48.0",
+    "svelte-check": "^2.8.0",
+    "svelte-preprocess": "^4.10.7",
+    "tailwindcss": "^3.1.4",
+    "trash-cli": "^5.0.0",
+    "typescript": "^4.7.4"
+  },
+  "type": "module"
+}
