@@ -21,7 +21,7 @@
   },
   {
     "question": "Qual é o valor atual do asset para venda?",
-    "answer": "Nenhum asset de blockchain possui valor determinado porque não existe um controlador financeiro, o valor é fixado entre comprador e vender na hora da troca",
+    "answer": "Nenhum asset de blockchain possui valor determinado porque não existe um controlador financeiro, o valor é fixado entre comprador e vendedor na hora da troca",
     "active": false
   },
   {
