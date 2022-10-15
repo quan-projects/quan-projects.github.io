@@ -1,0 +1,37 @@
+[
+  {
+    "question": "O que preciso fazer para converter minhas antigas NBR para Q1V?",
+    "answer": "Nada! A rede não foi alterada, apenas renomeada, então não existe a necessidade de conversão. Suas NBR já são Q1V",
+    "active": true
+  },
+  {
+    "question": "A antiga carteira da NBR é compativel com o Q1V?",
+    "answer": "Sim! A versão mais recente é totalmente compativel, e pode ser baixada diretamente no nosso repositorio github",
+    "active": false
+  },
+  {
+    "question": "O asset está em alguma exchange?",
+    "answer": "Exchanges, nada mais são que intermediarios de troca, e não pagamos nenhuma exchange para nos listar, e também recomendamos cuidado ao utilizarem exchanges",
+    "active": false
+  },
+  {
+    "question": "Como vendo os meus assets?",
+    "answer": "Se você quiser vender para alguém, o mesmo poderá ser realizado de forma pessoal e direta, cobrando o valor que desejar",
+    "active": false
+  },
+  {
+    "question": "Qual é o valor atual do asset para venda?",
+    "answer": "Nenhum asset de blockchain possui valor determinado porque não existe um controlador financeiro, o valor é fixado entre comprador e vender na hora da troca",
+    "active": false
+  },
+  {
+    "question": "Como eu posso minerar?",
+    "answer": "Para a mineração você pode utilizar uma pool ou utilizar mineração solo através de um node pessoal",
+    "active": false
+  },
+  {
+    "question": "Como eu posso ter um node pessoal?",
+    "answer": "Você pode compilar ou utilizar um binario disponivel em nosso repositorio github",
+    "active": false
+  }
+]
