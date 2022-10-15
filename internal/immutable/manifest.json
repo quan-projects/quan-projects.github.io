@@ -1,66 +1,77 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-39acfd6e.js",
+    "file": "start-8062b2d6.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-247e354f.js"
+      "_index-61894202.js"
     ],
     "dynamicImports": [
       "src/routes/__layout.svelte",
       "src/routes/__error.svelte",
+      "src/routes/asset-q1v.svelte",
       "src/routes/index.svelte",
       "src/routes/links.svelte"
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-50adbd1b.js",
+    "file": "pages/__layout.svelte-3ee6d50a.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-247e354f.js"
+      "_index-61894202.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-1f7482fc.css"
+      "assets/pages/__layout.svelte-45dc590f.css"
     ]
   },
   "src/routes/__error.svelte": {
-    "file": "pages/__error.svelte-05790977.js",
+    "file": "pages/__error.svelte-49f82bf0.js",
     "src": "src/routes/__error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-247e354f.js"
+      "_index-61894202.js"
+    ]
+  },
+  "src/routes/asset-q1v.svelte": {
+    "file": "pages/asset-q1v.svelte-9f72b45a.js",
+    "src": "src/routes/asset-q1v.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-61894202.js",
+      "_Sidebar-14056351.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-a4d11153.js",
+    "file": "pages/index.svelte-693a0345.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-247e354f.js",
-      "_Sidebar-e6d340df.js"
+      "_index-61894202.js",
+      "_Sidebar-14056351.js"
     ]
   },
   "src/routes/links.svelte": {
-    "file": "pages/links.svelte-792cd796.js",
+    "file": "pages/links.svelte-27d48a93.js",
     "src": "src/routes/links.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-247e354f.js",
-      "_Sidebar-e6d340df.js"
+      "_index-61894202.js",
+      "_Sidebar-14056351.js"
     ]
   },
-  "_index-247e354f.js": {
-    "file": "chunks/index-247e354f.js"
+  "_index-61894202.js": {
+    "file": "chunks/index-61894202.js"
   },
-  "_Sidebar-e6d340df.js": {
-    "file": "chunks/Sidebar-e6d340df.js",
+  "_Sidebar-14056351.js": {
+    "file": "chunks/Sidebar-14056351.js",
     "imports": [
-      "_index-247e354f.js"
+      "_index-61894202.js"
     ],
     "css": [
       "assets/Sidebar-61cff08f.css"
