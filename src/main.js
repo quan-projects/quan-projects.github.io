@@ -2,7 +2,7 @@
 
 import {CoreModule} from "@jamilservices/sb-core-module";
 import "@styles/main.scss";
-import helloWordExample from "@components/hello-world/main.js";
+import homePage from "@components/home/main.js";
 
 document.addEventListener("DOMContentLoaded", () => {
     if(CoreModule && CoreModule.version.split(".")[0] >= 1) {
@@ -15,10 +15,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 "state": "simply-builder.main"
             },
             "children": [
-                ...helloWordExample(CoreModule)
+                ...homePage
             ]
         };
         CoreModule.createFromStruct({
+            parent: window.document.body,
             struct: SimplyBuilderContainerStruct
         });
     }

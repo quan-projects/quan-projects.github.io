@@ -1,29 +1,103 @@
 @use "@styles/function/convert";
 
-$set-h2-size: convert.px-to-rem(40px);
-$set-h4-size: convert.px-to-rem(20px);
+$set-1px: convert.px-to-rem(1px);
+$set-4px: convert.px-to-rem(4px);
+$set-8px: convert.px-to-rem(8px);
+$set-9px: convert.px-to-rem(9px);
+$set-10px: convert.px-to-rem(10px);
+$set-20px: convert.px-to-rem(20px);
+$set-24px: convert.px-to-rem(24px);
+$set-40px: convert.px-to-rem(40px);
+$set-48px: convert.px-to-rem(48px);
 
 body {
-  min-width: 100%;
-  min-height: 100%;
+  inline-size: 100%;
+  block-size: 100%;
+  font-size: 1rem;
   user-select: none;
+  min-inline-size: fit-content;
 }
 
 .view-container {
   display: flex;
   font-family: inherit;
   flex-direction: column;
-  width: inherit;
-  height: inherit;
-  max-height: inherit;
-  max-width: inherit;
+  inline-size: 100%;
+  block-size: 100%;
+  max-inline-size: inherit;
+  max-block-size: inherit;
   align-items: center;
   justify-content: center;
   font-weight: bold;
+  gap: $set-10px;
+  * {
+    display: inline-flex;
+    padding: $set-8px;
+  }
   h2 {
-    font-size: $set-h2-size;
+    font-size: $set-48px;
+    text-align: center;
   }
   h4 {
-    font-size: $set-h4-size;
+    font-size: $set-24px;
+    text-align: center;
+  }
+
+  .telegram {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: $set-24px;
+    border: $set-1px solid #4ca3e2;
+    transition: all .2s ease;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: #2481cc;
+    padding-inline: $set-20px;
+    block-size: $set-48px;
+    &:hover {
+      text-decoration: none;
+      background: #4ca3e2;
+      color: #fff;
+    }
+  }
+  .twitter {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: $set-24px;
+    border: $set-1px solid #171616;
+    transition: all .2s ease;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: #f6f8fc;
+    padding-inline: $set-20px;
+    block-size: $set-48px;
+    background-color: #202124;
+    &:hover {
+      text-decoration: none;
+      background: #f6f8fc;
+      color: #202124;
+    }
+  }
+
+  .github,
+  .opencollective {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    inline-size: fit-content;
+    block-size: fit-content;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    svg {
+      inline-size: auto;
+      block-size: $set-48px
+    }
   }
 }
